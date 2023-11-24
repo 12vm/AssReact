@@ -1,13 +1,13 @@
 import React from 'react'
 import '../style/userList.css'
 
-const UserList= ({arr}) => {
+const UserList= ({arr1}) => {
 
     return(
         <div className='userList'>
         <h1>User List</h1>
         <ul>
-            {arr.map((item)=>{
+            {arr1.map((item)=>{
                 <li key={item.id}>
                     {item.name}
                     {item.age}
