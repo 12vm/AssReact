@@ -1,7 +1,7 @@
 import React from 'react'
 import '../style/userTable.css'
 
-const UserTable=({arr})=>{
+const UserTable=({arr1})=>{
     
     return(
         <div class='userTable'>
@@ -19,7 +19,7 @@ const UserTable=({arr})=>{
                 </th>
             </tr>
 
-            {arr.map(myFunction)}
+            {arr1.map(myFunction)}
         </table>
 
 </div>
