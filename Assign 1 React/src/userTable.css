@@ -1,0 +1,9 @@
+.userTable{
+    margin: 20px;
+}
+tr:nth-child(odd){
+    background-color: rgb(196, 241, 255);
+}
+td, th{
+    padding: 10px;
+}
