@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import {arr} from './components/data'
 import UserList from './components/UserList'
